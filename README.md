@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VR Associates | Tax Consultants in Kottarakkara</title>
+
+<meta name="description"
+content="VR Associates Kottarakkara is a reputed tax consulting firm providing GST, Income Tax, ESI, EPF, FSSAI, KML, MSME Registration, Auditing, Business Startup Services and other business solutions.">
+
+<meta name="keywords"
+content="VR Associates Kottarakkara, Tax Consultant Kottarakkara, GST Consultant Kottarakkara, Income Tax Kottarakkara, Auditor Kottarakkara, GST Filing, ESI EPF Filing, MSME Registration, Business Startup Services">
+
+<meta name="author" content="VR Associates">
+
+<meta name="robots" content="index, follow">
+
+<meta property="og:title"
+content="VR Associates - One Stop Solutions for All Business">
+
+<meta property="og:description"
+content="Tax Consultancy, GST, Income Tax, Accounting, Auditing and Business Auxiliary Services in Kottarakkara.">
+
+<meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+
+{
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "name": "VR Associates",
+  "description": "One Stop Solutions for All Business",
+  "telephone": "+91-7510933711",
+  "email": "vr.taxexperts@gmail.com",
+  "foundingDate": "2016",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Market Junction, Near Amman Temple",
+    "addressLocality": "Kottarakkara",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    "Kottarakkara",
+    "Kollam",
+    "Kerala"
+  ],
+  "url": ""
+}
+
+</script>
+
+
+<style>
+
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#30233d;
+    background:#fff;
+    line-height:1.7;
+    overflow-x:hidden;
+}
+
+:root{
+    --purple:#54158f;
+    --dark-purple:#2c075c;
+    --light-purple:#f6f0fc;
+    --gold:#f5b900;
+    --white:#fff;
+    --text:#30233d;
+    --gray:#665b70;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#fff;
+    box-shadow:0 2px 15px rgba(0,0,0,.10);
+}
+
+.navbar{
+    width:100%;
+    max-width:1400px;
+    min-height:78px;
+    margin:auto;
+    padding:0 30px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+
+/* LOGO */
+
+.logo{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+}
+
+.logo-vr{
+    font-family:Georgia,serif;
+    font-size:47px;
+    font-weight:bold;
+    color:var(--gold);
+    line-height:1;
+    margin-right:10px;
+}
+
+.logo-text h2{
+    color:var(--purple);
+    font-size:23px;
+    line-height:1.1;
+}
+
+.logo-text span{
+    color:#666;
+    font-size:9px;
+    letter-spacing:1.5px;
+}
+
+
+/* NAVIGATION */
+
+nav{
+    margin-left:auto;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--text);
+    font-size:15px;
+    font-weight:bold;
+    white-space:nowrap;
+    transition:.25s;
+}
+
+nav a:hover{
+    color:var(--purple);
+}
+
+.nav-btn{
+    background:var(--purple);
+    color:white !important;
+    padding:11px 18px;
+    border-radius:6px;
+}
+
+.nav-btn:hover{
+    background:var(--dark-purple);
+}
+
+.menu-btn{
+    display:none;
+    font-size:30px;
+    color:var(--purple);
+    cursor:pointer;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero{
+
+    min-height:680px;
+
+    display:flex;
+    align-items:center;
+
+    background:
+
+    linear-gradient(
+        90deg,
+        rgba(44,7,92,.98),
+        rgba(84,21,143,.88),
+        rgba(84,21,143,.30)
+    ),
+
+    url("https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=2000&q=85");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    width:100%;
+    max-width:1400px;
+    margin:auto;
+    padding:90px 50px;
+    color:white;
+}
+
+.hero-small{
+    color:var(--gold);
+    font-size:20px;
+    font-weight:bold;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+.hero h1{
+    font-family:Georgia,serif;
+    font-size:clamp(52px,7vw,88px);
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.hero h1 span{
+    color:var(--gold);
+}
+
+.hero-slogan{
+    font-size:clamp(23px,3vw,34px);
+    font-weight:bold;
+    line-height:1.3;
+    max-width:800px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:750px;
+    font-size:19px;
+    margin-bottom:10px;
+}
+
+.hero-location{
+    font-size:18px;
+    margin:15px 0 30px;
+}
+
+.hero-location span{
+    color:var(--gold);
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 25px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.btn-gold{
+    background:var(--gold);
+    color:#281034;
+}
+
+.btn-gold:hover{
+    background:#ffd13b;
+    transform:translateY(-2px);
+}
+
+.btn-purple{
+    background:var(--purple);
+    color:white;
+}
+
+.btn-purple:hover{
+    background:var(--dark-purple);
+}
+
+
+/* =====================================================
+   COMMON
+===================================================== */
+
+section{
+    padding:80px 25px;
+}
+
+.container{
+    width:100%;
+    max-width:1300px;
+    margin:auto;
+}
+
+.section-heading{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-heading small{
+    color:var(--purple);
+    font-weight:bold;
+    letter-spacing:1.5px;
+}
+
+.section-heading h2{
+    color:var(--purple);
+    font-size:clamp(30px,4vw,44px);
+    line-height:1.2;
+    margin-top:8px;
+}
+
+.section-heading p{
+    color:var(--gray);
+    margin-top:8px;
+}
+
+.gold-line{
+    width:55px;
+    height:4px;
+    background:var(--gold);
+    border-radius:5px;
+    margin:15px auto;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+#about{
+    background:var(--light-purple);
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:65px;
+    align-items:center;
+}
+
+.about-content small{
+    color:var(--purple);
+    font-weight:bold;
+}
+
+.about-content h2{
+    color:var(--purple);
+    font-size:clamp(32px,4vw,46px);
+    line-height:1.2;
+    margin:10px 0 20px;
+}
+
+.about-content p{
+    color:var(--gray);
+    margin-bottom:18px;
+}
+
+.highlight{
+    color:var(--purple);
+    font-weight:bold;
+}
+
+.about-box{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    border-top:5px solid var(--gold);
+    box-shadow:0 8px 25px rgba(75,22,139,.10);
+}
+
+.about-box h3{
+    color:var(--purple);
+    font-size:26px;
+    margin-bottom:15px;
+}
+
+.about-box p{
+    color:var(--gray);
+}
+
+
+/* =====================================================
+   ESTABLISHED
+===================================================== */
+
+.established{
+    background:var(--purple);
+    color:white;
+}
+
+.established-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    text-align:center;
+}
+
+.established-item{
+    padding:20px;
+    border-right:1px solid rgba(255,255,255,.25);
+}
+
+.established-item:last-child{
+    border-right:none;
+}
+
+.established-number{
+    color:var(--gold);
+    font-size:42px;
+    font-weight:bold;
+}
+
+.established-item h3{
+    font-size:20px;
+}
+
+
+/* =====================================================
+   SERVICES
+===================================================== */
+
+#services{
+    background:#fff;
+}
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.service-card{
+    background:white;
+    border:1px solid #e8dff0;
+    border-radius:12px;
+    padding:30px 25px;
+    box-shadow:0 5px 20px rgba(75,22,139,.07);
+    transition:.25s;
+}
+
+.service-card:hover{
+    transform:translateY(-7px);
+    box-shadow:0 15px 35px rgba(75,22,139,.15);
+}
+
+.service-icon{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:var(--purple);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+    font-weight:bold;
+    margin-bottom:18px;
+}
+
+.service-card h3{
+    color:var(--purple);
+    font-size:21px;
+    margin-bottom:10px;
+}
+
+.service-card p{
+    color:var(--gray);
+}
+
+.service-list{
+    list-style:none;
+    margin-top:10px;
+}
+
+.service-list li{
+    color:var(--gray);
+    margin:7px 0;
+    padding-left:20px;
+    position:relative;
+}
+
+.service-list li:before{
+    content:"✓";
+    color:var(--gold);
+    font-weight:bold;
+    position:absolute;
+    left:0;
+}
+
+.service-card a{
+    display:inline-block;
+    margin-top:15px;
+    color:var(--purple);
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+/* =====================================================
+   WHY CHOOSE US
+===================================================== */
+
+#why-us{
+    background:var(--light-purple);
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.why-card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(75,22,139,.07);
+}
+
+.why-number{
+    color:var(--gold);
+    font-size:30px;
+    font-weight:bold;
+}
+
+.why-card h3{
+    color:var(--purple);
+    font-size:21px;
+    margin:5px 0 8px;
+}
+
+.why-card p{
+    color:var(--gray);
+}
+
+
+/* =====================================================
+   BUSINESS MESSAGE
+===================================================== */
+
+.business-message{
+    background:
+        linear-gradient(
+            90deg,
+            var(--dark-purple),
+            var(--purple)
+        );
+
+    text-align:center;
+    color:white;
+}
+
+.business-message h2{
+    color:var(--gold);
+    font-size:clamp(28px,4vw,45px);
+    line-height:1.25;
+}
+
+.business-message p{
+    max-width:850px;
+    margin:20px auto;
+    font-size:19px;
+}
+
+.business-message .quote{
+    font-family:Georgia,serif;
+    font-style:italic;
+    font-size:24px;
+}
+
+
+/* =====================================================
+   LOCATION
+===================================================== */
+
+#location{
+    background:white;
+}
+
+.location-grid{
+    display:grid;
+    grid-template-columns:1fr 1.5fr;
+    gap:35px;
+    align-items:stretch;
+}
+
+.location-info{
+    background:var(--light-purple);
+    padding:35px;
+    border-radius:12px;
+    border-left:5px solid var(--purple);
+}
+
+.location-info h3{
+    color:var(--purple);
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.location-info p{
+    color:var(--gray);
+    margin-bottom:15px;
+}
+
+.location-address{
+    background:white;
+    padding:18px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.location-address strong{
+    color:var(--purple);
+}
+
+.map-wrapper{
+    min-height:420px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(75,22,139,.12);
+}
+
+.map-wrapper iframe{
+    width:100%;
+    height:100%;
+    min-height:420px;
+    border:0;
+}
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+#contact{
+    background:var(--light-purple);
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+}
+
+.contact-info h2{
+    color:var(--purple);
+    font-size:clamp(32px,4vw,45px);
+    line-height:1.2;
+    margin-bottom:18px;
+}
+
+.contact-info > p{
+    color:var(--gray);
+    margin-bottom:25px;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.contact-icon{
+    flex-shrink:0;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:var(--purple);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+}
+
+.contact-item strong{
+    color:var(--purple);
+}
+
+.contact-item a{
+    color:var(--purple);
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contact-form{
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(75,22,139,.08);
+}
+
+.contact-form h3{
+    color:var(--purple);
+    font-size:27px;
+    margin-bottom:20px;
+}
+
+.form-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+}
+
+input,
+textarea,
+select{
+    width:100%;
+    padding:13px;
+    margin-bottom:13px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    font-family:inherit;
+    font-size:15px;
+    outline:none;
+}
+
+input:focus,
+textarea:focus,
+select:focus{
+    border-color:var(--purple);
+}
+
+textarea{
+    min-height:125px;
+    resize:vertical;
+}
+
+.contact-form button{
+    width:100%;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+    background:var(--dark-purple);
+    color:white;
+}
+
+.footer-main{
+    padding:60px 25px;
+}
+
+.footer-grid{
+    max-width:1300px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1.4fr 1fr 1fr;
+    gap:50px;
+}
+
+.footer-logo{
+    color:var(--gold);
+    font-family:Georgia,serif;
+    font-size:45px;
+    font-weight:bold;
+}
+
+.footer-brand h3{
+    font-size:23px;
+    margin-top:-42px;
+    margin-left:62px;
+}
+
+.footer-brand p{
+    color:#d9cee5;
+    margin-top:20px;
+}
+
+.footer-title{
+    color:var(--gold);
+    margin-bottom:18px;
+}
+
+.footer-links{
+    list-style:none;
+}
+
+.footer-links li{
+    margin:9px 0;
+}
+
+.footer-links a{
+    color:#eee;
+    text-decoration:none;
+}
+
+.footer-contact p{
+    margin:10px 0;
+}
+
+.footer-contact a{
+    color:white;
+    text-decoration:none;
+}
+
+.copyright{
+    text-align:center;
+    padding:18px;
+    color:#ddd;
+    border-top:1px solid rgba(255,255,255,.2);
+    font-size:14px;
+}
+
+
+/* =====================================================
+   WHATSAPP
+===================================================== */
+
+.whatsapp{
+    position:fixed;
+    right:22px;
+    bottom:22px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#25D366;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    text-decoration:none;
+    z-index:999;
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:1100px){
+
+    nav{
+        display:none;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    nav.active{
+        display:block;
+        position:absolute;
+        top:78px;
+        left:0;
+        width:100%;
+        background:white;
+        box-shadow:0 8px 20px rgba(0,0,0,.12);
+    }
+
+    nav.active ul{
+        flex-direction:column;
+        align-items:stretch;
+        gap:0;
+        padding:10px 25px 20px;
+    }
+
+    nav.active li{
+        width:100%;
+    }
+
+    nav.active a{
+        display:block;
+        padding:12px 10px;
+    }
+
+    nav.active .nav-btn{
+        text-align:center;
+        margin-top:5px;
+    }
+
+    .services-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .location-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+
+@media(max-width:800px){
+
+    section{
+        padding:65px 20px;
+    }
+
+    .about-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .why-grid{
+        grid-template-columns:1fr;
+    }
+
+    .contact-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .established-grid{
+        grid-template-columns:1fr;
+    }
+
+    .established-item{
+        border-right:none;
+        border-bottom:1px solid rgba(255,255,255,.25);
+    }
+
+    .established-item:last-child{
+        border-bottom:none;
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .navbar{
+        min-height:68px;
+        padding:0 15px;
+    }
+
+    .logo-vr{
+        font-size:38px;
+    }
+
+    .logo-text h2{
+        font-size:18px;
+    }
+
+    .logo-text span{
+        display:none;
+    }
+
+    nav.active{
+        top:68px;
+    }
+
+    .hero{
+        min-height:650px;
+    }
+
+    .hero-content{
+        padding:70px 20px;
+    }
+
+    .hero h1{
+        font-size:45px;
+    }
+
+    .hero-slogan{
+        font-size:22px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    section{
+        padding:55px 16px;
+    }
+
+    .services-grid{
+        grid-template-columns:1fr;
+    }
+
+    .form-row{
+        grid-template-columns:1fr;
+    }
+
+    .contact-form{
+        padding:25px 18px;
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+
+    .whatsapp{
+        width:55px;
+        height:55px;
+        right:15px;
+        bottom:15px;
+    }
+
+}
+
+
+@media(max-width:380px){
+
+    .hero h1{
+        font-size:39px;
+    }
+
+    .logo-text h2{
+        font-size:16px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header>
+
+<div class="navbar">
+
+<a href="#home" class="logo">
+
+<div class="logo-vr">
+VR
+</div>
+
+<div class="logo-text">
+
+<h2>ASSOCIATES</h2>
+
+<span>TAX CONSULTANTS</span>
+
+</div>
+
+</a>
+
+
+<div class="menu-btn"
+onclick="toggleMenu()">
+
+☰
+
+</div>
+
+
+<nav id="navigation">
+
+<ul>
+
+<li>
+<a href="#home">Home</a>
+</li>
+
+<li>
+<a href="#about">About Us</a>
+</li>
+
+<li>
+<a href="#services">Services</a>
+</li>
+
+<li>
+<a href="#why-us">Why Choose Us</a>
+</li>
+
+<li>
+<a href="#location">Location</a>
+</li>
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
+<li>
+<a href="#contact" class="nav-btn">
+Enquire Now
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<div class="hero-small">
+WELCOME TO
+</div>
+
+
+<h1>
+
+VR
+
+<span>ASSOCIATES</span>
+
+</h1>
+
+
+<div class="hero-slogan">
+
+ONE STOP SOLUTIONS
+<br>
+FOR ALL BUSINESS
+
+</div>
+
+
+<p>
+
+Professional Tax Consultancy,
+Accounting, Auditing and Business
+Auxiliary Services.
+
+</p>
+
+
+<div class="hero-location">
+
+📍 Kottarakkara, Kollam, Kerala
+
+</div>
+
+
+<a href="#services"
+class="btn btn-gold">
+
+Explore Our Services →
+
+</a>
+
+&nbsp;
+
+<a href="tel:+917510933711"
+class="btn btn-purple">
+
+📞 Call Now
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about">
+
+<div class="container">
+
+<div class="section-heading">
+
+<small>ABOUT US</small>
+
+<h2>
+Professional Tax & Business Consultancy
+</h2>
+
+<div class="gold-line"></div>
+
+</div>
+
+
+<div class="about-grid">
+
+
+<div class="about-content">
+
+<p>
+
+We, <span class="highlight">VR Associates</span>,
+based at Kottarakkara, are a reputed tax
+consulting firm promoted by enthusiastic
+professional accountants.
+
+</p>
+
+
+<p>
+
+We provide multidisciplinary services such as
+registration and filing of returns for
+<strong>GST, ESI, EPF, Income Tax, FSSAI and KML.</strong>
+
+</p>
+
+
+<p>
+
+Other services include
+<strong>MSME Registration, Auditing and
+Business Set-up Services.</strong>
+
+</p>
+
+
+<p>
+
+We provide all business auxiliary services to
+our clients in the most competent and
+professional manner.
+
+</p>
+
+
+<p>
+
+Anyone can feel free to contact us at any time
+for any taxation-related advice. Being
+continuous learners, we support our customers
+with updated information.
+
+</p>
+
+
+<a href="#contact"
+class="btn btn-purple">
+
+Connect With Us →
+
+</a>
+
+</div>
+
+
+<div class="about-box">
+
+<h3>
+Our Commitment
+</h3>
+
+<p>
+
+At VR Associates, we believe that professional
+tax and accounting support should make
+business easier.
+
+</p>
+
+<p>
+
+Our objective is to provide reliable,
+competent and professional services that
+help our clients concentrate on growing
+their businesses.
+
+</p>
+
+<p>
+
+We continuously update our knowledge and
+keep our clients informed about important
+changes in taxation and business regulations.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ESTABLISHED
+===================================================== -->
+
+<section class="established">
+
+<div class="container">
+
+<div class="established-grid">
+
+
+<div class="established-item">
+
+<div class="established-number">
+2016
+</div>
+
+<h3>
+Established
+</h3>
+
+<p>
+Serving clients with professional
+business support.
+</p>
+
+</div>
+
+
+<div class="established-item">
+
+<div class="established-number">
+365 × 7
+</div>
+
+<h3>
+Business Support
+</h3>
+
+<p>
+Connect with us whenever you
+need business-related assistance.
+</p>
+
+</div>
+
+
+<div class="established-item">
+
+<div class="established-number">
+KOLLAM
+</div>
+
+<h3>
+Our Service Area
+</h3>
+
+<p>
+Serving Kottarakkara and clients
+across Kollam district.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section id="services">
+
+<div class="container">
+
+
+<div class="section-heading">
+
+<small>OUR SERVICES</small>
+
+<h2>
+Products & Services Offered
+</h2>
+
+<div class="gold-line"></div>
+
+<p>
+Comprehensive business and taxation solutions
+</p>
+
+</div>
+
+
+<div class="services-grid">
+
+
+<!-- ACCOUNTING -->
+
+<div class="service-card">
+
+<div class="service-icon">
+ACC
+</div>
+
+<h3>
+Accounting & Auditing
+</h3>
+
+<p>
+Professional accounting and auditing
+support for businesses.
+</p>
+
+<ul class="service-list">
+
+<li>Accounting Services</li>
+
+<li>Auditing</li>
+
+<li>Income Tax Filing</li>
+
+<li>ESI Filing</li>
+
+<li>EPF Filing</li>
+
+</ul>
+
+</div>
+
+
+<!-- STARTUP -->
+
+<div class="service-card">
+
+<div class="service-icon">
+BUS
+</div>
+
+<h3>
+Business Startup Services
+</h3>
+
+<p>
+
+Support and guidance for entrepreneurs
+starting and establishing their businesses.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- GST -->
+
+<div class="service-card">
+
+<div class="service-icon">
+GST
+</div>
+
+<h3>
+GST Registration
+</h3>
+
+<p>
+
+Professional assistance for GST registration,
+returns and related compliance.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- DIGITAL SIGNATURE -->
+
+<div class="service-card">
+
+<div class="service-icon">
+DS
+</div>
+
+<h3>
+Digital Signature
+</h3>
+
+<p>
+
+Digital Signature Certificate services
+for business and online compliance requirements.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- PROJECT REPORT -->
+
+<div class="service-card">
+
+<div class="service-icon">
+PR
+</div>
+
+<h3>
+Project Report for Bank Loans
+</h3>
+
+<p>
+
+Preparation of professional project reports
+for business finance and bank loan requirements.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- SHOP LICENSE -->
+
+<div class="service-card">
+
+<div class="service-icon">
+LIC
+</div>
+
+<h3>
+Shop & Establishment License
+</h3>
+
+<p>
+
+Assistance with Shop & Establishment
+registration and related requirements.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- MSME -->
+
+<div class="service-card">
+
+<div class="service-icon">
+MSME
+</div>
+
+<h3>
+MSME Registration
+</h3>
+
+<p>
+
+Assistance for MSME registration and
+business-related documentation.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- FSSAI -->
+
+<div class="service-card">
+
+<div class="service-icon">
+FSSAI
+</div>
+
+<h3>
+FSSAI Services
+</h3>
+
+<p>
+
+Assistance with FSSAI registration
+and related business requirements.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+<!-- KML -->
+
+<div class="service-card">
+
+<div class="service-icon">
+KML
+</div>
+
+<h3>
+KML Services
+</h3>
+
+<p>
+
+Professional assistance for
+KML-related registration and compliance needs.
+
+</p>
+
+<a href="#contact">
+Enquire Now →
+</a>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHY CHOOSE US
+===================================================== -->
+
+<section id="why-us">
+
+<div class="container">
+
+
+<div class="section-heading">
+
+<small>WHY CHOOSE US?</small>
+
+<h2>
+Your Business. Our Professional Support.
+</h2>
+
+<div class="gold-line"></div>
+
+</div>
+
+
+<div class="why-grid">
+
+
+<div class="why-card">
+
+<div class="why-number">
+01
+</div>
+
+<h3>
+Free Up Your Management Time
+</h3>
+
+<p>
+
+We offer support services that can free up
+management to concentrate on important
+aspects of their business.
+
+</p>
+
+</div>
+
+
+<div class="why-card">
+
+<div class="why-number">
+02
+</div>
+
+<h3>
+Turn Numbers Into Business Intelligence
+</h3>
+
+<p>
+
+We turn numbers into actionable business
+intelligence, building a better picture and
+offering better financial insight.
+
+</p>
+
+</div>
+
+
+<div class="why-card">
+
+<div class="why-number">
+03
+</div>
+
+<h3>
+End-to-End Finance & Accounts Support
+</h3>
+
+<p>
+
+We have proven experience of managing
+end-to-end finance and accounts processes
+from initial invoicing till payment.
+
+</p>
+
+</div>
+
+
+<div class="why-card">
+
+<div class="why-number">
+04
+</div>
+
+<h3>
+Plan for a More Profitable Future
+</h3>
+
+<p>
+
+We explore ideas and help you plan for a
+more profitable future wherever you are
+in your business life cycle.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BUSINESS MESSAGE
+===================================================== -->
+
+<section class="business-message">
+
+<div class="container">
+
+<h2>
+Unleash Your Business
+</h2>
+
+<p class="quote">
+
+"Unleash your Business with all our services
+for Healthy Growth in your Business."
+
+</p>
+
+<p>
+
+Avail any of the above services and
+connect with us for professional guidance
+and business support.
+
+</p>
+
+
+<a href="#contact"
+class="btn btn-gold">
+
+Connect With Us →
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LOCATION
+===================================================== -->
+
+<section id="location">
+
+<div class="container">
+
+
+<div class="section-heading">
+
+<small>LOCATION & OVERVIEW</small>
+
+<h2>
+VR Associates - Kottarakkara
+</h2>
+
+<div class="gold-line"></div>
+
+</div>
+
+
+<div class="location-grid">
+
+
+<div class="location-info">
+
+<h3>
+Our Location
+</h3>
+
+
+<p>
+
+Established in the year <strong>2016</strong>,
+VR Associates in Kottarakkara, Kollam is a
+professional consultancy serving customers
+from Kottarakkara and other parts of
+Kollam district.
+
+</p>
+
+
+<p>
+
+Over the course of our journey, our business
+has established a firm foothold in the industry.
+Customer satisfaction and professional service
+remain central to our approach.
+
+</p>
+
+
+<p>
+
+Our dedicated team works towards a common
+vision of providing reliable and professional
+business services.
+
+</p>
+
+
+<div class="location-address">
+
+<strong>
+📍 Office Address
+</strong>
+
+<br><br>
+
+VR Associates<br>
+
+Market Junction,<br>
+
+Near Amman Temple,<br>
+
+Kottarakkara,<br>
+
+Kollam, Kerala, India
+
+</div>
+
+
+<br>
+
+
+<a href="https://www.google.com/maps/search/?api=1&query=VR+Associates+Kottarakkara+Market+Junction"
+target="_blank"
+class="btn btn-purple">
+
+📍 Get Directions
+
+</a>
+
+</div>
+
+
+<div class="map-wrapper">
+
+<iframe
+
+src="https://www.google.com/maps?q=Market%20Junction%2C%20Kottarakkara%2C%20Kerala%2C%20India&output=embed"
+
+loading="lazy"
+
+allowfullscreen
+
+referrerpolicy="no-referrer-when-downgrade">
+
+</iframe>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact">
+
+<div class="container">
+
+
+<div class="section-heading">
+
+<small>CONNECT WITH US</small>
+
+<h2>
+Let's Discuss Your Business Needs
+</h2>
+
+<div class="gold-line"></div>
+
+<p>
+Anyone can feel free to contact us for
+taxation-related advice and business services.
+</p>
+
+</div>
+
+
+<div class="contact-grid">
+
+
+<div class="contact-info">
+
+
+<h2>
+We Are Here To Help
+</h2>
+
+
+<p>
+
+Whether you need help with GST,
+Income Tax, Accounting, Auditing,
+business registration or other business
+requirements, our team is ready to assist you.
+
+</p>
+
+
+<div class="contact-item">
+
+<div class="contact-icon">
+📍
+</div>
+
+<div>
+
+<strong>
+Office
+</strong>
+
+<br>
+
+Market Junction,
+Near Amman Temple,
+Kottarakkara
+
+</div>
+
+</div>
+
+
+<div class="contact-item">
+
+<div class="contact-icon">
+📞
+</div>
+
+<div>
+
+<strong>
+Mobile
+</strong>
+
+<br>
+
+<a href="tel:+917510933711">
+7510933711
+</a>
+
+</div>
+
+</div>
+
+
+<div class="contact-item">
+
+<div class="contact-icon">
+✉
+</div>
+
+<div>
+
+<strong>
+Email
+</strong>
+
+<br>
+
+<a href="mailto:vr.taxexperts@gmail.com">
+
+vr.taxexperts@gmail.com
+
+</a>
+
+</div>
+
+</div>
+
+
+<br>
+
+
+<a
+
+href="https://wa.me/917510933711?text=Hello%20VR%20Associates,%20I%20would%20like%20to%20know%20about%20your%20services."
+
+target="_blank"
+
+class="btn btn-purple">
+
+💬 WhatsApp Us
+
+</a>
+
+
+</div>
+
+
+
+<!-- FORM -->
+
+<div class="contact-form">
+
+<h3>
+SEND AN ENQUIRY
+</h3>
+
+
+<form onsubmit="sendWhatsApp(event)">
+
+
+<div class="form-row">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+
+<input
+type="tel"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+</div>
+
+
+<input
+type="email"
+id="email"
+placeholder="Email Address">
+
+
+<select id="service" required>
+
+<option value="">
+Select Service
+</option>
+
+<option>
+Accounting & Auditing
+</option>
+
+<option>
+Income Tax Filing
+</option>
+
+<option>
+GST Registration
+</option>
+
+<option>
+ESI & EPF Filing
+</option>
+
+<option>
+Business Startup Services
+</option>
+
+<option>
+Digital Signature
+</option>
+
+<option>
+Project Report for Bank Loan
+</option>
+
+<option>
+Shop & Establishment License
+</option>
+
+<option>
+MSME Registration
+</option>
+
+<option>
+FSSAI Services
+</option>
+
+<option>
+KML Services
+</option>
+
+<option>
+Other Tax Consultancy
+</option>
+
+</select>
+
+
+<textarea
+id="message"
+placeholder="Tell us about your requirement..."
+required></textarea>
+
+
+<button
+type="submit"
+class="btn btn-purple">
+
+Send Enquiry on WhatsApp
+
+</button>
+
+
+</form>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+<div class="footer-main">
+
+<div class="footer-grid">
+
+
+<div class="footer-brand">
+
+<div class="footer-logo">
+VR
+</div>
+
+<h3>
+ASSOCIATES
+</h3>
+
+
+<p>
+
+<strong>
+ONE STOP SOLUTIONS FOR ALL BUSINESS
+</strong>
+
+</p>
+
+
+<p>
+
+Tax Consultancy, Accounting,
+Auditing, GST, Income Tax and
+Business Auxiliary Services.
+
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 class="footer-title">
+Quick Links
+</h3>
+
+<ul class="footer-links">
+
+<li>
+<a href="#home">Home</a>
+</li>
+
+<li>
+<a href="#about">About Us</a>
+</li>
+
+<li>
+<a href="#services">Services</a>
+</li>
+
+<li>
+<a href="#why-us">Why Choose Us</a>
+</li>
+
+<li>
+<a href="#location">Location</a>
+</li>
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
+</ul>
+
+</div>
+
+
+
+<div class="footer-contact">
+
+<h3 class="footer-title">
+Contact Us
+</h3>
+
+
+<p>
+📍 Market Junction,
+Near Amman Temple,
+Kottarakkara
+</p>
+
+
+<p>
+
+📞
+
+<a href="tel:+917510933711">
+7510933711
+</a>
+
+</p>
+
+
+<p>
+
+✉
+
+<a href="mailto:vr.taxexperts@gmail.com">
+
+vr.taxexperts@gmail.com
+
+</a>
+
+</p>
+
+
+<p>
+
+💬
+
+<a
+href="https://wa.me/917510933711"
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<div class="copyright">
+
+© 2026 VR ASSOCIATES.
+All Rights Reserved.
+
+<br>
+
+Tax Consultants | Kottarakkara | Kollam | Kerala
+
+</div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     FLOATING WHATSAPP
+===================================================== -->
+
+<a
+
+class="whatsapp"
+
+href="https://wa.me/917510933711?text=Hello%20VR%20Associates,%20I%20would%20like%20to%20know%20about%20your%20services."
+
+target="_blank"
+
+aria-label="WhatsApp VR Associates">
+
+💬
+
+</a>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+
+/* MOBILE MENU */
+
+function toggleMenu(){
+
+    document
+    .getElementById("navigation")
+    .classList
+    .toggle("active");
+
+}
+
+
+/* CLOSE MENU AFTER CLICK */
+
+document
+.querySelectorAll("#navigation a")
+.forEach(function(link){
+
+    link.addEventListener("click",function(){
+
+        document
+        .getElementById("navigation")
+        .classList
+        .remove("active");
+
+    });
+
+});
+
+
+/* WHATSAPP FORM */
+
+function sendWhatsApp(event){
+
+    event.preventDefault();
+
+
+    const name =
+        document.getElementById("name").value;
+
+    const phone =
+        document.getElementById("phone").value;
+
+    const email =
+        document.getElementById("email").value;
+
+    const service =
+        document.getElementById("service").value;
+
+    const message =
+        document.getElementById("message").value;
+
+
+    const whatsappMessage =
+
+        "Hello VR ASSOCIATES,%0A%0A" +
+
+        "Name: " +
+        encodeURIComponent(name) +
+        "%0A" +
+
+        "Mobile: " +
+        encodeURIComponent(phone) +
+        "%0A" +
+
+        "Email: " +
+        encodeURIComponent(email) +
+        "%0A" +
+
+        "Service: " +
+        encodeURIComponent(service) +
+        "%0A" +
+
+        "Requirement: " +
+        encodeURIComponent(message);
+
+
+    window.open(
+
+        "https://wa.me/917510933711?text=" +
+        whatsappMessage,
+
+        "_blank"
+
+    );
+
+}
+
+</script>
+
+
+</body>
+
+</html>
